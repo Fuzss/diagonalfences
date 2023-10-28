@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog].
 
+## [v8.1.1-1.20.1] - 2023-10-28
+### Fixed
+- Fixed dynamic data generation failing on Windows systems, leading to missing models on Fabric and a crash during start-up on Forge
+- Fixed targeting blocks with new block state properties which cannot be properly supported
+
 ## [v8.1.0-1.20.1] - 2023-10-27
 **BREAKING UPDATE:** All diagonal connections from existing blocks will disappear. The blocks need to be replaced for them to show again.
 ### Changed
