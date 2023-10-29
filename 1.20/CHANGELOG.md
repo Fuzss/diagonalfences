@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog].
 
+## [v8.1.2-1.20.1] - 2023-10-29
+### Changed
+- Updated to Puzzles Lib v8.1.5
+
 ## [v8.1.1-1.20.1] - 2023-10-28
 ### Fixed
 - Fixed dynamic data generation failing on Windows systems, leading to missing models on Fabric and a crash during start-up on Forge
