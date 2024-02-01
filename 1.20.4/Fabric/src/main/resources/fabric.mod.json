@@ -9,7 +9,7 @@
   "authors": [
     "${modAuthor}"
   ],
-  
+
   "contact": {
     "homepage": "${modPageUrl}",
     "issues": "${modIssueUrl}",
@@ -26,10 +26,13 @@
       "${mainEntryPoint}"
     ],
     "client": [
+      "${clientEntryPoint}"
     ]
   },
 
   "mixins": [
+    "${modId}.common.mixins.json",
+    "${modId}.fabric.mixins.json"
   ],
 
   "depends": {
