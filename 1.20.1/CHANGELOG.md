@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog].
 
+## [v8.1.4-1.20.1] - 2024-03-29
+- Bump bundled Diagonal Blocks mod to v8.0.5
+
 ## [v8.1.3-1.20.1] - 2023-12-08
 ### Changed
 - Update Diagonal Blocks to v8.0.4
