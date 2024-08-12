@@ -1,0 +1,15 @@
+apply from: "https://raw.githubusercontent.com/Fuzss/modresources/main/gradle/v2/common.gradle"
+
+dependencies {
+    // Puzzles Lib
+    modApi libs.puzzleslib.common
+
+    // Diagonal Blocks
+    api(libs.diagonalblocks.common) {
+        transitive = false
+    }
+}
+
+tasks.withType(net.fabricmc.loom.task.AbstractRemapJarTask).configureEach {
+    targetNamespace = "named"
+}
