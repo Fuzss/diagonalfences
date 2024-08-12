@@ -1,13 +1,11 @@
-apply from: "https://raw.githubusercontent.com/Fuzss/modresources/main/gradle/v2/common.gradle"
+apply from: "https://raw.githubusercontent.com/Fuzss/modresources/main/gradle/${libs.versions.minecraft.get()}/common.gradle"
 
 dependencies {
     // Puzzles Lib
     modApi libs.puzzleslib.common
 
     // Diagonal Blocks
-    api(libs.diagonalblocks.common) {
-        transitive = false
-    }
+    modApi libs.diagonalblocks.common
 }
 
 tasks.withType(net.fabricmc.loom.task.AbstractRemapJarTask).configureEach {
