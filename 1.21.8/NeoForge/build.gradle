@@ -7,9 +7,3 @@ dependencies {
     // Diagonal Blocks
     modApi(include(libs.diagonalblocks.neoforge.get()))
 }
-
-tasks.withType(net.fabricmc.loom.task.AbstractRunTask).configureEach {
-    doFirst {
-        patchLaunchCfg()
-    }
-}
